@@ -1,6 +1,6 @@
 from django.shortcuts import render,HttpResponse
 from django.shortcuts import redirect
-from .models import Post, BlogComment
+from blog.models import Post, BlogComment
 from django.contrib import messages
 from django.contrib.auth.models import User
 
