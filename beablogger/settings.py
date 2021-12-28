@@ -29,7 +29,7 @@ SECRET_KEY = '20tthyvg6^ap9yzyn5#j6kasm=3(_5c+hk)!wpnb5vh5g^7b%*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['beablogger70.herokuapp.com','localhost']
+ALLOWED_HOSTS = ['beablogger70.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -134,10 +134,8 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR,  "static"),
 ]
 MESSAGE_TAGS = {
-    messages.ERROR:'danger'
+    messages.ERROR: 'danger'
 }
-
-
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
