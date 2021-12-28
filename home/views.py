@@ -1,6 +1,6 @@
 from django.shortcuts import render,HttpResponse,redirect
-from beablogger.home.models import Contact
-from beablogger.blog.models import Post
+from home.models import Contact
+from blog.models import Post
 from django.contrib import messages
 from django.contrib.auth.models import User
 from django.contrib.auth  import authenticate,  login, logout
