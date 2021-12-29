@@ -6,9 +6,9 @@ from django.contrib.auth.models import User
 
 # Create your views here.
 def bloghome(request):
-    allPosts = Post.objects.all()
-    context = {'allPosts': allPosts}
-    return render(request, "blog/bloghome.html", context)
+    # allPosts = Post.objects.all()
+    # context = {'allPosts': allPosts} context
+    return render(request, "blog/bloghome.html")
 
 def blogpost(request, slug):
     post=Post.objects.filter(slug=slug).first()
