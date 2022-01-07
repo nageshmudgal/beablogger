@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '20tthyvg6^ap9yzyn5#j6kasm=3(_5c+hk)!wpnb5vh5g^7b%*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['beablogger70.herokuapp.com', 'localhost']
 
