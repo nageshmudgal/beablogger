@@ -92,7 +92,7 @@ SignUp
         </button>
       </div>
       <div class="modal-body">
-        <form action= "/signup" method='post'>
+        <form action= "/signup/" method='post'>
   <div class="form-group">
     <label for="username">Username</label>
     <input type="text" class="form-control" id="username" name="username" placeholder="Choose a unique username" required>
@@ -150,7 +150,7 @@ SignUp
         </button>
       </div>
       <div class="modal-body">
-        <form action="/login" method="POST"> {% csrf_token %}
+        <form action="/login/" method="POST"> {% csrf_token %}
   <div class="form-group">
     <label for="username">Username</label>
     <input type="text" class="form-control" id="loginusername" name="loginusername" placeholder="Enter your username "required>
